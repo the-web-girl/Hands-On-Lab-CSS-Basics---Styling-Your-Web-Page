@@ -56,7 +56,7 @@ header {
 figure {
     float:left; 
     justify-self: auto; 
-    width:200px
+    width:200px;
 }
 
 img {
@@ -81,4 +81,58 @@ button{
 
 button:hover {
     cursor: pointer;
+}
+
+/* The calculator panel */
+.b{
+    border-top-style: solid;
+    background-color: white;
+    border-top-width: 20px;
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    display: flex;
+}
+
+.temperature{
+    border-top-color: green;
+}
+
+.weight{
+    border-top-color: coral;
+}
+
+.distance{
+    border-top-color: cyan;
+
+}
+
+legend {
+    font-size: 30px;
+    font-weight: bolder;
+    color: aliceblue;
+}
+
+/* Floating icon for the home button */
+.iconbutton{
+    width:40px;
+    height:40px;
+    border-radius: 100%;
+    background-color: rgb(225, 235, 235);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom:40px;
+    left:0;
+    }
+.iconbutton img {
+    width:30px;
+}
+    
+footer {
+    background-color:rgb(240, 234, 245);
+    margin-top: 20px;
 }
